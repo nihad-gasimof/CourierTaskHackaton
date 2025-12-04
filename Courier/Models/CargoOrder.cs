@@ -11,33 +11,17 @@ namespace Courier.Model
     public class CargoOrder
 
     {
-        private static int count = 0;
-        public int Id { get; private set; }
-        public int CustomerId { get; set; }
-        public int CourierId { get; set; }
-        public int TotalPrice { get; set; }
-        public OrderStatus orderStatus { get; set; }
-        public DateTime CreatedAt { get; private set; }
-
-        public CargoOrder(int customerId, int courierId, int totalPrice, OrderStatus orderStatus)
-        {
-            count++;
-            Id = count;
-            CustomerId = customerId;
-            CourierId = courierId;
-            TotalPrice = totalPrice;
-            this.orderStatus = orderStatus;
-            CreatedAt = DateTime.Now;
-        }
-        public void UpdateStatus(OrderStatus status)
-        {
-            if (status == OrderStatus.Delivered || status == OrderStatus.Cancelled)
-            {
-                Console.WriteLine("you can't change status");
-                return;
-            }
-            orderStatus = status;
-
-        }
+        public static int count = 0;
+        public  int Id;
+        public int CustomerId;
+        public int CourierId;
+        public int TotalPrice;
+        public OrderStatus orderStatus;
+        //        Id(statik olaraq artacaq şəkildə olmalıdır)
+        //CustomerId(Sifarişin hansı müştəriyə getdiyi)
+        //CourierId(Hansı kuryer tərəfindən çatdırıldığı)
+        //Ümumi məbləğ
+        //OrderStatus(enum-dır, 2-ci tapşırıqda ətraflı verilib) (default dəyəri Created olmalıdır)
+        //CreatedAt(nə vaxt yarandığı, default olaraq indiki vaxtı göstərsin)
     }
 }

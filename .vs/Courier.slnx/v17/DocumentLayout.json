@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\models\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\qafar\\desktop\\hackathontasks\\task 2\\couriertaskhackaton\\courier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\qafar\\desktop\\hackathontasks\\task 2\\couriertaskhackaton\\courier\\models\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\models\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\qafar\\desktop\\hackathontasks\\task 2\\couriertaskhackaton\\courier\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,37 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Courier\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Models\\Customer.cs",
-              "RelativeToolTip": "Courier\\Models\\Customer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:43:53.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Courier.cs",
-              "DocumentMoniker": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Models\\Courier.cs",
-              "RelativeDocumentMoniker": "Courier\\Models\\Courier.cs",
-              "ToolTip": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Models\\Courier.cs",
-              "RelativeToolTip": "Courier\\Models\\Courier.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:33:06.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "Courier\\Enums\\OrderStatus.cs",
@@ -72,7 +38,8 @@
               "RelativeToolTip": "Courier\\Enums\\OrderStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:53:13.365Z"
+              "WhenOpened": "2025-12-04T14:53:13.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,26 +49,27 @@
               "RelativeDocumentMoniker": "Courier\\Models\\CargoOrder.cs",
               "ToolTip": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Models\\CargoOrder.cs",
               "RelativeToolTip": "Courier\\Models\\CargoOrder.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T14:52:38.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Courier.csproj",
+              "DocumentIndex": 2,
+              "Title": "Courier",
               "DocumentMoniker": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Courier.csproj",
               "RelativeDocumentMoniker": "Courier\\Courier.csproj",
               "ToolTip": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Courier.csproj",
               "RelativeToolTip": "Courier\\Courier.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T14:50:44.515Z"
+              "WhenOpened": "2025-12-04T14:50:44.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Program.cs",
               "RelativeDocumentMoniker": "Courier\\Program.cs",
@@ -109,7 +77,8 @@
               "RelativeToolTip": "Courier\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:50:39.167Z"
+              "WhenOpened": "2025-12-04T14:50:39.167Z",
+              "EditorCaption": ""
             }
           ]
         }
