@@ -1,4 +1,4 @@
-sing System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,21 +6,17 @@ using System.Threading.Tasks;
 
 namespace Courier.Models
 {
-
-
-    public class Customer
+    public class Courier
     {
         private static int _idCounter = 1;
 
         public int Id { get; private set; }
         public string Name { get; set; }
-        public string City { get; set; }
+        public bool IsAvailable { get; set; } = true;
 
-        public Customer(string Name , string City)
+        public Courier()
         {
             Id = _idCounter++;
-            this.Name = Name;
-            this.City = City;
         }
     }
 }
