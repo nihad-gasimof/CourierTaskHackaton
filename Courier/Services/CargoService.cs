@@ -1,4 +1,5 @@
-﻿using Courier.Model;
+﻿using Courier.Enums;
+using Courier.Model;
 using Courier.Models;
 using System;
 using System.Collections.Generic;
@@ -20,24 +21,51 @@ namespace Courier.Services
 
         List<CargoOrder> ICargoService.Orders => throw new NotImplementedException();
 
-        Task ICargoService.AddCourier(Models.Courier courier)
+        async Task ICargoService.AddCourier(Models.Courier courier)
         {
-            throw new NotImplementedException();
+            Couriers.Add(courier);
+            await Task.CompletedTask;
         }
 
-        Task ICargoService.AddCustomer(Customer customer)
+        async Task ICargoService.AddCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+           Customers.Add(customer);
+            await Task.CompletedTask;
         }
 
-        Task ICargoService.CompleteOrder(int orderId)
+        async Task ICargoService.CompleteOrder(int orderId)
         {
-            throw new NotImplementedException();
+            var order = Orders.FirstOrDefault(o => o.Id == orderId);
+            if (order == null)
+                throw new Exception("Bu ID-də sifariş tapılmadı!");
+
+            order.orderStatus=OrderStatus.Delivered;
+
+            // Courieri yenidən aktiv edək
+            var courier = Couriers.FirstOrDefault(c => c.Id == order.CourierId);
+            if (courier != null)
+                courier.IsAvailable = true;
+            await Task.CompletedTask;
+
         }
 
-        Task ICargoService.CreateOrder(CargoOrder order)
+        async Task ICargoService.CreateOrder(CargoOrder order)
         {
-            throw new NotImplementedException();
+            var customer = Customers.FirstOrDefault(c => c.Id == order.CustomerId);
+            if (customer == null)
+                throw new Exception("Belə bir Customer tapılmadı!");
+
+            var courier = Couriers.FirstOrDefault(c => c.Id == order.CourierId);
+            if (courier == null)
+                throw new Exception("Belə bir Courier tapılmadı!");
+
+            if (!courier.IsAvailable)
+                throw new Exception($"Kuryer ({courier.Name}) hazırda uyğun deyil!");
+
+            courier.IsAvailable = false; 
+
+            Orders.Add(order);
+            await Task.CompletedTask;
         }
     }
 }

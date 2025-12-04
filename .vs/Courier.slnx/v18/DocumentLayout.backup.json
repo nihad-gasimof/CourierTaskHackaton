@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\services\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\models\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\models\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\services\\icargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\services\\icargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\models\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\models\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|c:\\users\\nihad\\onedrive\\desktop\\courier\\courier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C37F4209-5B51-C041-60E7-8C300A61410E}|Courier\\Courier.csproj|solutionrelative:courier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +38,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Courier.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Courier.cs",
-              "RelativeDocumentMoniker": "Courier\\Models\\Courier.cs",
-              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Courier.cs",
-              "RelativeToolTip": "Courier\\Models\\Courier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:18:10.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Courier\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Customer.cs",
-              "RelativeToolTip": "Courier\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Courier\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "Courier\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:17:04.964Z",
+              "WhenOpened": "2025-12-04T15:31:58.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CargoOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\CargoOrder.cs",
+              "RelativeDocumentMoniker": "Courier\\Models\\CargoOrder.cs",
+              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\CargoOrder.cs",
+              "RelativeToolTip": "Courier\\Models\\CargoOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:31:02.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CargoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Services\\CargoService.cs",
+              "RelativeDocumentMoniker": "Courier\\Services\\CargoService.cs",
+              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Services\\CargoService.cs",
+              "RelativeToolTip": "Courier\\Services\\CargoService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:27:52.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICargoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Services\\ICargoService.cs",
+              "RelativeDocumentMoniker": "Courier\\Services\\ICargoService.cs",
+              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Services\\ICargoService.cs",
+              "RelativeToolTip": "Courier\\Services\\ICargoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:23:15.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Courier.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Courier.cs",
+              "RelativeDocumentMoniker": "Courier\\Models\\Courier.cs",
+              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Courier.cs",
+              "RelativeToolTip": "Courier\\Models\\Courier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:18:10.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Courier\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Models\\Customer.cs",
+              "RelativeToolTip": "Courier\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:17:04.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nihad\\OneDrive\\Desktop\\Courier\\Courier\\Program.cs",
               "RelativeDocumentMoniker": "Courier\\Program.cs",
@@ -60,8 +125,7 @@
               "RelativeToolTip": "Courier\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:45:12.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:45:12.808Z"
             }
           ]
         }
