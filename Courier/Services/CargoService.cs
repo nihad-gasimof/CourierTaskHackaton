@@ -1,4 +1,5 @@
-﻿using Courier.Model;
+﻿using Courier.Enums;
+using Courier.Model;
 using Courier.Models;
 using System;
 using System.Collections.Generic;
@@ -32,9 +33,20 @@ namespace Courier.Services
             await Task.CompletedTask;
         }
 
-        Task ICargoService.CompleteOrder(int orderId)
+        async Task ICargoService.CompleteOrder(int orderId)
         {
-            throw new NotImplementedException();
+            var order = Orders.FirstOrDefault(o => o.Id == orderId);
+            if (order == null)
+                throw new Exception("Bu ID-də sifariş tapılmadı!");
+
+            order.orderStatus=OrderStatus.Delivered;
+
+            // Courieri yenidən aktiv edək
+            var courier = Couriers.FirstOrDefault(c => c.Id == order.CourierId);
+            if (courier != null)
+                courier.IsAvailable = true;
+            await Task.CompletedTask;
+
         }
 
         async Task ICargoService.CreateOrder(CargoOrder order)
