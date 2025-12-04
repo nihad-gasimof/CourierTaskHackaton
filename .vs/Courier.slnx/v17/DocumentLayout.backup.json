@@ -36,9 +36,10 @@
               "RelativeDocumentMoniker": "Courier\\Enums\\OrderStatus.cs",
               "ToolTip": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Enums\\OrderStatus.cs",
               "RelativeToolTip": "Courier\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:53:13.365Z"
+              "WhenOpened": "2025-12-04T14:53:13.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +49,7 @@
               "RelativeDocumentMoniker": "Courier\\Models\\CargoOrder.cs",
               "ToolTip": "C:\\Users\\Qafar\\Desktop\\HackathonTasks\\task 2\\CourierTaskHackaton\\Courier\\Models\\CargoOrder.cs",
               "RelativeToolTip": "Courier\\Models\\CargoOrder.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T14:52:38.885Z",
               "EditorCaption": ""
